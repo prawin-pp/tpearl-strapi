@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "payment_channels",
+  "info": {
+    "singularName": "payment-channel",
+    "pluralName": "payment-channels",
+    "displayName": "PaymentChannels"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    }
+  }
+}
