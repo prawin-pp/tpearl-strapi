@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_tpearl_price",
+  "info": {
+    "displayName": "PriceByPaymentChannel",
+    "icon": "credit-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "price": {
+      "type": "decimal",
+      "required": true,
+      "min": 0
+    },
+    "payment_channel": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::payment-channel.payment-channel"
+    }
+  }
+}
