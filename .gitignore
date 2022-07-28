@@ -1,5 +1,3 @@
-dist/
-
 ############################
 # OS X
 ############################
@@ -114,3 +112,6 @@ exports
 *.cache
 build
 .strapi-updater.json
+
+dist/
+!devtools/seed/*.sql
