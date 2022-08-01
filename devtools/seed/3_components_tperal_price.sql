@@ -64,6 +64,6 @@ VALUES
   (2, 29.00),
   (4, 29.00);
 
-ALTER SEQUENCE components_tpearl_price_id_seq RESTART 60;
+ALTER SEQUENCE components_tpearl_price_id_seq RESTART 61;
 
 END TRANSACTION;

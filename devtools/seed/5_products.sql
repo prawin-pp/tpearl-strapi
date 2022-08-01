@@ -120,6 +120,6 @@ VALUES
     1
   );
 
-ALTER SEQUENCE products_id_seq RESTART 12;
+ALTER SEQUENCE products_id_seq RESTART 13;
 
 END TRANSACTION;

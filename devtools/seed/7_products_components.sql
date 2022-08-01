@@ -491,6 +491,6 @@ VALUES
     5
   );
 
-ALTER SEQUENCE products_components_id_seq RESTART 65;
+ALTER SEQUENCE products_components_id_seq RESTART 66;
 
 END TRANSACTION;

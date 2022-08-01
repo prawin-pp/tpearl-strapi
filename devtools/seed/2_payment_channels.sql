@@ -57,6 +57,6 @@ VALUES
     1
   );
 
-ALTER SEQUENCE payment_channels_id_seq RESTART 60;
+ALTER SEQUENCE payment_channels_id_seq RESTART 61;
 
 END TRANSACTION;

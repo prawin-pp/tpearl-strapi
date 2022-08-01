@@ -66,6 +66,6 @@ VALUES
     1
   );
 
-ALTER SEQUENCE categories_id_seq RESTART 6;
+ALTER SEQUENCE categories_id_seq RESTART 7;
 
 END TRANSACTION;
