@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "payments",
+  "info": {
+    "singularName": "payment",
+    "pluralName": "payments",
+    "displayName": "Payment",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "items": {
+      "displayName": "PaymentItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "tpearl.payment-item",
+      "required": true
+    },
+    "total_amount": {
+      "type": "decimal",
+      "required": true,
+      "min": 0
+    },
+    "payment_channel": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::payment-channel.payment-channel"
+    },
+    "deleted_at": {
+      "type": "datetime",
+      "private": true
+    }
+  }
+}

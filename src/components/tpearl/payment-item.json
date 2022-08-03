@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_tpearl_payment_items",
+  "info": {
+    "displayName": "PaymentItem",
+    "icon": "store"
+  },
+  "options": {},
+  "attributes": {
+    "product": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::product.product"
+    },
+    "quantity": {
+      "type": "integer",
+      "required": true,
+      "min": 1
+    },
+    "price": {
+      "type": "decimal",
+      "required": true,
+      "min": 0
+    }
+  }
+}
