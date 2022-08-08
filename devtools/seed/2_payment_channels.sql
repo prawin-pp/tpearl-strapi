@@ -6,9 +6,7 @@ INSERT INTO
     "name",
     created_at,
     updated_at,
-    published_at,
-    created_by_id,
-    updated_by_id
+    published_at
   )
 VALUES
   (
@@ -16,47 +14,37 @@ VALUES
     'CASH',
     NOW(),
     NOW(),
-    NOW(),
-    1,
-    1
+    NOW()
   ),
   (
     2,
     'PROMPTPAY',
     NOW(),
     NOW(),
-    NOW(),
-    1,
-    1
+    NOW()
   ),
   (
     3,
     'GRAB',
     NOW(),
     NOW(),
-    NOW(),
-    1,
-    1
+    NOW()
   ),
   (
     4,
     'LINEMAN',
     NOW(),
     NOW(),
-    NOW(),
-    1,
-    1
+    NOW()
   ),
   (
     5,
     'ROBINHOOD',
     NOW(),
     NOW(),
-    NOW(),
-    1,
-    1
+    NOW()
   );
 
-ALTER SEQUENCE payment_channels_id_seq RESTART 61;
+ALTER SEQUENCE payment_channels_id_seq RESTART 6;
 
 END TRANSACTION;

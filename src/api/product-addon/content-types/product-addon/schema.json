@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "product_addons",
+  "info": {
+    "singularName": "product-addon",
+    "pluralName": "product-addons",
+    "displayName": "ProductAddons",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "prices": {
+      "type": "component",
+      "repeatable": true,
+      "component": "tpearl.price-by-payment-channel"
+    }
+  }
+}

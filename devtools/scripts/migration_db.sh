@@ -1,4 +1,6 @@
-#!/usr/bin/env -S bash -e
+#!/bin/bash
+
+set -e
 
 BASE_PATH="$( cd -- "$(dirname "$0")/../.." >/dev/null 2>&1 ; pwd -P )"
 

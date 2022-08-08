@@ -2,7 +2,8 @@
   "collectionName": "components_tpearl_payment_items",
   "info": {
     "displayName": "PaymentItem",
-    "icon": "store"
+    "icon": "store",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -20,6 +21,17 @@
       "type": "decimal",
       "required": true,
       "min": 0
+    },
+    "addons": {
+      "displayName": "PaymentAddonItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "tpearl.payment-addon-item"
+    },
+    "sweetness": {
+      "type": "integer",
+      "min": 0,
+      "default": 0
     }
   }
 }

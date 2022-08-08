@@ -6,9 +6,7 @@ INSERT INTO
     "name",
     created_at,
     updated_at,
-    published_at,
-    created_by_id,
-    updated_by_id
+    published_at
   )
 VALUES
   (
@@ -16,54 +14,42 @@ VALUES
     'ชานม (Milk Tea)',
     NOW(),
     NOW(),
-    NOW(),
-    1,
-    1
+    NOW()
   ),
   (
     2,
-    'ชาใส (Green Tea)',
+    'ชาเขียว (Green Tea)',
     NOW(),
     NOW(),
-    NOW(),
-    1,
-    1
+    NOW()
   ),
   (
     3,
-    'โซดา ซู่ซ่า (Sparkling Soda)',
+    'ชานมสด (Milk Shake)',
     NOW(),
     NOW(),
-    NOW(),
-    1,
-    1
+    NOW()
   ),
   (
     4,
-    'นมหมีปั่น',
+    'โซดา (Italian Soda)',
     NOW(),
     NOW(),
-    NOW(),
-    1,
-    1
+    NOW()
   ),
   (
     5,
-    'นมหมีเย็น',
+    'นมหมีเย็น (Iced Bear Milk)',
     NOW(),
     NOW(),
-    NOW(),
-    1,
-    1
+    NOW()
   ),
   (
     6,
-    'มิลล์เชค (Milk Shake Premium)',
+    'นมหมีปั่น (Smoothie Bear Milk)',
     NOW(),
     NOW(),
-    NOW(),
-    1,
-    1
+    NOW()
   );
 
 ALTER SEQUENCE categories_id_seq RESTART 7;

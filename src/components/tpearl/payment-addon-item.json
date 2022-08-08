@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_tpearl_payment_addon_items",
+  "info": {
+    "displayName": "PaymentAddonItem"
+  },
+  "options": {},
+  "attributes": {
+    "product": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::product-addon.product-addon"
+    },
+    "quantity": {
+      "type": "integer",
+      "min": 1,
+      "default": 1,
+      "required": true
+    },
+    "price": {
+      "type": "decimal",
+      "default": 0,
+      "required": true,
+      "min": 0
+    }
+  }
+}
