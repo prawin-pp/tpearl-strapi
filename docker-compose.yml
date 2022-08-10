@@ -1,35 +1,35 @@
 version: "3"
 services:
-  # app:
-  #   build:
-  #     dockerfile: ./devtools/docker/Dockerfile
-  #     context: .
-  #   image: tpearl-strapi:latest
-  #   ports:
-  #     - "1337:1337"
-  #   environment:
-  #     APP_KEYS: TVyI2Fjz6aMdOTJP8FRtGw==,dy7y4S2/LRuvw8ChgzxaYQ==,h5pcj1Y/Dwka4/b+tCBqvQ==,/m02Cw29NNS335ve7b1Tiw==
-  #     API_TOKEN_SALT: 5afbR30c8wV6denuMevSHg==
-  #     ADMIN_JWT_SECRET: LTVXLll9j79jD3FPTp1cXw==
-  #     JWT_SECRET: 1MnVwXUQ0zbcxyFHKT6DHw==
-  #     DATABASE_HOST: db
-  #     DATABASE_PORT: 5432
-  #     DATABASE_NAME: tpearl
-  #     DATABASE_USERNAME: strapi
-  #     DATABASE_PASSWORD: strapi
-  #     DATABASE_SSL: 'false'
-  #   depends_on:
-  #     - db
-  #   restart: always
+  app:
+    build:
+      dockerfile: ./devtools/docker/Dockerfile
+      context: .
+    image: tpearl-strapi:latest
+    ports:
+      - "1337:1337"
+    environment:
+      APP_KEYS: TVyI2Fjz6aMdOTJP8FRtGw==,dy7y4S2/LRuvw8ChgzxaYQ==,h5pcj1Y/Dwka4/b+tCBqvQ==,/m02Cw29NNS335ve7b1Tiw==
+      API_TOKEN_SALT: 5afbR30c8wV6denuMevSHg==
+      ADMIN_JWT_SECRET: LTVXLll9j79jD3FPTp1cXw==
+      JWT_SECRET: 1MnVwXUQ0zbcxyFHKT6DHw==
+      DATABASE_HOST: db
+      DATABASE_PORT: 5432
+      DATABASE_NAME: ${DATABASE_DB}
+      DATABASE_USERNAME: ${DATABASE_USER}
+      DATABASE_PASSWORD: ${DATABASE_PASSWORD}
+      DATABASE_SSL: 'false'
+    depends_on:
+      - db
+    restart: always
 
   db:
     image: postgres:14
     ports:
       - "5432:5432"
     environment:
-      POSTGRES_DB: tpearl
-      POSTGRES_USER: strapi
-      POSTGRES_PASSWORD: strapi
+      POSTGRES_DB: ${DATABASE_DB}
+      POSTGRES_USER: ${DATABASE_USER}
+      POSTGRES_PASSWORD: ${DATABASE_PASSWORD}
     volumes:
       - db-data:/var/lib/postgresql/data
     restart: always
