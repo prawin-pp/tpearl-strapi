@@ -8,10 +8,10 @@ services:
     ports:
       - "1337:1337"
     environment:
-      APP_KEYS: TVyI2Fjz6aMdOTJP8FRtGw==,dy7y4S2/LRuvw8ChgzxaYQ==,h5pcj1Y/Dwka4/b+tCBqvQ==,/m02Cw29NNS335ve7b1Tiw==
-      API_TOKEN_SALT: 5afbR30c8wV6denuMevSHg==
-      ADMIN_JWT_SECRET: LTVXLll9j79jD3FPTp1cXw==
-      JWT_SECRET: 1MnVwXUQ0zbcxyFHKT6DHw==
+      APP_KEYS: ${APP_KEYS}
+      API_TOKEN_SALT: ${API_TOKEN_SALT}
+      ADMIN_JWT_SECRET: ${ADMIN_JWT_SECRET}
+      JWT_SECRET: ${JWT_SECRET}
       DATABASE_HOST: db
       DATABASE_PORT: 5432
       DATABASE_NAME: ${DATABASE_DB}
