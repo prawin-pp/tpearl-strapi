@@ -4,6 +4,8 @@ services:
     build:
       dockerfile: ./devtools/docker/Dockerfile
       context: .
+      args:
+        - NODE_ENV=${NODE_ENV}
     image: tpearl-strapi:latest
     ports:
       - "1337:1337"
