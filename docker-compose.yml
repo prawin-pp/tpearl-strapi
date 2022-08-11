@@ -8,6 +8,7 @@ services:
     ports:
       - "1337:1337"
     environment:
+      URL: ${URL}
       APP_KEYS: ${APP_KEYS}
       API_TOKEN_SALT: ${API_TOKEN_SALT}
       ADMIN_JWT_SECRET: ${ADMIN_JWT_SECRET}
