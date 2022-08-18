@@ -43,7 +43,10 @@ VALUES
     NOW(),
     NOW(),
     NOW()
-  );
+  ) ON CONFLICT (id) DO
+UPDATE
+SET
+  "name" = EXCLUDED."name";
 
 ALTER SEQUENCE payment_channels_id_seq RESTART 6;
 

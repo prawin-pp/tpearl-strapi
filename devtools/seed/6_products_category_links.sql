@@ -1,5 +1,7 @@
 START TRANSACTION;
 
+TRUNCATE TABLE products_category_links;
+
 INSERT INTO
   products_category_links (product_id, category_id)
 VALUES

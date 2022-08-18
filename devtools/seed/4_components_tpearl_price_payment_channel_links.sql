@@ -1,5 +1,7 @@
 START TRANSACTION;
 
+TRUNCATE TABLE components_tpearl_price_payment_channel_links;
+
 INSERT INTO
   components_tpearl_price_payment_channel_links (price_by_payment_channel_id, payment_channel_id)
 VALUES
