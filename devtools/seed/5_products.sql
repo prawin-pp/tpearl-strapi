@@ -94,11 +94,12 @@ VALUES
   (59, 'หมีสตอเบอรี่ปั่น', NOW(), NOW(), NOW()),
   (60, 'หมีน้ำผึ้งปั่น', NOW(), NOW(), NOW()),
   (61, 'หมีโกโก้ปั่น', NOW(), NOW(), NOW()),
-  (62, 'หมีโอริโอ้ปั่น', NOW(), NOW(), NOW()) ON CONFLICT (id) DO
+  (62, 'หมีโอริโอ้ปั่น', NOW(), NOW(), NOW()),
+  (63, 'อื่นๆ', NOW(), NOW(), NOW()) ON CONFLICT (id) DO
 UPDATE
 SET
   "name" = EXCLUDED."name";
 
-ALTER SEQUENCE products_id_seq RESTART 63;
+ALTER SEQUENCE products_id_seq RESTART 64;
 
 END TRANSACTION;

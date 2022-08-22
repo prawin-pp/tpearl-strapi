@@ -2489,6 +2489,46 @@ VALUES
     'tpearl.price-by-payment-channel',
     'prices',
     5
+  ),
+  (
+    311,
+    63,
+    311,
+    'tpearl.price-by-payment-channel',
+    'prices',
+    1
+  ),
+  (
+    312,
+    63,
+    312,
+    'tpearl.price-by-payment-channel',
+    'prices',
+    2
+  ),
+  (
+    313,
+    63,
+    313,
+    'tpearl.price-by-payment-channel',
+    'prices',
+    3
+  ),
+  (
+    314,
+    63,
+    314,
+    'tpearl.price-by-payment-channel',
+    'prices',
+    4
+  ),
+  (
+    315,
+    63,
+    315,
+    'tpearl.price-by-payment-channel',
+    'prices',
+    5
   ) ON CONFLICT (id) DO
 UPDATE
 SET
@@ -2498,6 +2538,6 @@ SET
   field = EXCLUDED.field,
   "order" = EXCLUDED."order";
 
-ALTER SEQUENCE products_components_id_seq RESTART 311;
+ALTER SEQUENCE products_components_id_seq RESTART 316;
 
 END TRANSACTION;

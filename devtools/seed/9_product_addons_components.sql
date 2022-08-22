@@ -13,7 +13,7 @@ VALUES
   (
     1,
     1,
-    311,
+    316,
     'tpearl.price-by-payment-channel',
     'prices',
     1
@@ -21,7 +21,7 @@ VALUES
   (
     2,
     1,
-    312,
+    317,
     'tpearl.price-by-payment-channel',
     'prices',
     2
@@ -29,7 +29,7 @@ VALUES
   (
     3,
     1,
-    313,
+    318,
     'tpearl.price-by-payment-channel',
     'prices',
     3
@@ -37,7 +37,7 @@ VALUES
   (
     4,
     1,
-    314,
+    319,
     'tpearl.price-by-payment-channel',
     'prices',
     4
@@ -45,7 +45,7 @@ VALUES
   (
     5,
     1,
-    315,
+    320,
     'tpearl.price-by-payment-channel',
     'prices',
     5
@@ -53,7 +53,7 @@ VALUES
   (
     6,
     2,
-    316,
+    321,
     'tpearl.price-by-payment-channel',
     'prices',
     1
@@ -61,7 +61,7 @@ VALUES
   (
     7,
     2,
-    317,
+    322,
     'tpearl.price-by-payment-channel',
     'prices',
     2
@@ -69,7 +69,7 @@ VALUES
   (
     8,
     2,
-    318,
+    323,
     'tpearl.price-by-payment-channel',
     'prices',
     3
@@ -77,7 +77,7 @@ VALUES
   (
     9,
     2,
-    319,
+    324,
     'tpearl.price-by-payment-channel',
     'prices',
     4
@@ -85,7 +85,7 @@ VALUES
   (
     10,
     2,
-    320,
+    325,
     'tpearl.price-by-payment-channel',
     'prices',
     5
@@ -93,7 +93,7 @@ VALUES
   (
     11,
     3,
-    321,
+    326,
     'tpearl.price-by-payment-channel',
     'prices',
     1
@@ -101,7 +101,7 @@ VALUES
   (
     12,
     3,
-    322,
+    327,
     'tpearl.price-by-payment-channel',
     'prices',
     2
@@ -109,7 +109,7 @@ VALUES
   (
     13,
     3,
-    323,
+    328,
     'tpearl.price-by-payment-channel',
     'prices',
     3
@@ -117,7 +117,7 @@ VALUES
   (
     14,
     3,
-    324,
+    329,
     'tpearl.price-by-payment-channel',
     'prices',
     4
@@ -125,7 +125,7 @@ VALUES
   (
     15,
     3,
-    325,
+    330,
     'tpearl.price-by-payment-channel',
     'prices',
     5
@@ -133,7 +133,7 @@ VALUES
   (
     16,
     4,
-    326,
+    331,
     'tpearl.price-by-payment-channel',
     'prices',
     1
@@ -141,7 +141,7 @@ VALUES
   (
     17,
     4,
-    327,
+    332,
     'tpearl.price-by-payment-channel',
     'prices',
     2
@@ -149,7 +149,7 @@ VALUES
   (
     18,
     4,
-    328,
+    333,
     'tpearl.price-by-payment-channel',
     'prices',
     3
@@ -157,7 +157,7 @@ VALUES
   (
     19,
     4,
-    329,
+    334,
     'tpearl.price-by-payment-channel',
     'prices',
     4
@@ -165,7 +165,7 @@ VALUES
   (
     20,
     4,
-    330,
+    335,
     'tpearl.price-by-payment-channel',
     'prices',
     5
@@ -173,7 +173,7 @@ VALUES
   (
     21,
     5,
-    331,
+    336,
     'tpearl.price-by-payment-channel',
     'prices',
     1
@@ -181,7 +181,7 @@ VALUES
   (
     22,
     5,
-    332,
+    337,
     'tpearl.price-by-payment-channel',
     'prices',
     2
@@ -189,7 +189,7 @@ VALUES
   (
     23,
     5,
-    333,
+    338,
     'tpearl.price-by-payment-channel',
     'prices',
     3
@@ -197,7 +197,7 @@ VALUES
   (
     24,
     5,
-    334,
+    339,
     'tpearl.price-by-payment-channel',
     'prices',
     4
@@ -205,7 +205,7 @@ VALUES
   (
     25,
     5,
-    335,
+    340,
     'tpearl.price-by-payment-channel',
     'prices',
     5

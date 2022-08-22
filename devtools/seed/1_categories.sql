@@ -15,11 +15,12 @@ VALUES
   (4, 'โซดา', NOW(), NOW(), NOW()),
   (5, 'นมหมีเย็น', NOW(), NOW(), NOW()),
   (6, 'นมหมีปั่น', NOW(), NOW(), NOW()),
-  (7, 'โปรโมชั่น', NOW(), NOW(), NOW()) ON CONFLICT (id) DO
+  (7, 'โปรโมชั่น', NOW(), NOW(), NOW()),
+  (8, 'อื่นๆ', NOW(), NOW(), NOW()) ON CONFLICT (id) DO
 UPDATE
 SET
   "name" = EXCLUDED."name";
 
-ALTER SEQUENCE categories_id_seq RESTART 8;
+ALTER SEQUENCE categories_id_seq RESTART 9;
 
 END TRANSACTION;
