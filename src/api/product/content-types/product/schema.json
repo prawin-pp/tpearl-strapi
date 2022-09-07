@@ -18,11 +18,12 @@
       "unique": true
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "category": {
       "type": "relation",
@@ -34,6 +35,11 @@
       "type": "component",
       "repeatable": true,
       "component": "tpearl.price-by-payment-channel"
+    },
+    "cost": {
+      "type": "decimal",
+      "default": 0,
+      "min": 0
     }
   }
 }

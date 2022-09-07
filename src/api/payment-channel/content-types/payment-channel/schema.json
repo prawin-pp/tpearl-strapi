@@ -4,7 +4,8 @@
   "info": {
     "singularName": "payment-channel",
     "pluralName": "payment-channels",
-    "displayName": "PaymentChannels"
+    "displayName": "PaymentChannels",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,6 +16,12 @@
       "type": "string",
       "unique": true,
       "required": true
+    },
+    "gross_profit": {
+      "type": "decimal",
+      "default": 0,
+      "min": 0,
+      "max": 100
     }
   }
 }

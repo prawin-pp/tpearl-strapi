@@ -29,6 +29,11 @@
       "type": "component",
       "repeatable": true,
       "component": "tpearl.price-by-payment-channel"
+    },
+    "cost": {
+      "type": "decimal",
+      "default": 0,
+      "min": 0
     }
   }
 }
