@@ -14,7 +14,8 @@ Before running `tpearl-strapi`, you must have the following installed:
 To install and run the project, follow these steps:
 
 1. Clone the repository or download the source code.
-2. Run the application using the following command:
+2. Copy config from `.env.example` to `.env`
+3. Run the application using the following command:
 
 ```bash
 docker compose up
