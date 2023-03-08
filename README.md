@@ -1,12 +1,12 @@
-# Tpearl API
+# Tpearl Strapi
 
-`tpearl-api` is a RESTful API built using the Strapi framework that allows you to manage products, product-addons, categories, and payment channels for an `tpearl-shop`. It provides endpoints for creating, reading, updating, and deleting resources, and supports authentication and authorization.
+`tpearl-strapi` is a RESTful API built using the Strapi framework that allows you to manage products, product-addons, categories, and payment channels for an `tpearl-shop`. It provides endpoints for creating, reading, updating, and deleting resources, and supports authentication and authorization.
 
 ## Getting Started
 
 ### Prerequisites
 
-Before running `tpearl-api`, you must have the following installed:
+Before running `tpearl-strapi`, you must have the following installed:
 - Docker (v19 or later)
 
 ### Installation
@@ -30,3 +30,5 @@ To run the application using example data using the following command:
 ./devtools/scripts/migration_db.sh seed
 ```
 
+## License
+This project is licensed under the MIT License.
